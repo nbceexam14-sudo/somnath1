@@ -3,112 +3,140 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Admission Portal</title>
+<title>BNBCE - Computer Education</title>
+
+<link rel="stylesheet" href="style.css">
 
 <style>
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family:Arial,sans-serif;
+}
+
+body{
     background:#f5f5f5;
 }
 
 header{
-    background:#0d6efd;
-    color:white;
-    padding:20px;
-    text-align:center;
+    background:#0b5ed7;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
 }
 
-nav{
-    background:#0047b3;
-    text-align:center;
-    padding:10px;
+.logo{
+    font-size:28px;
+    font-weight:bold;
 }
 
 nav a{
     color:white;
     text-decoration:none;
-    margin:15px;
-    font-weight:bold;
+    margin:0 15px;
+    font-size:17px;
+}
+
+nav a:hover{
+    color:yellow;
 }
 
 .hero{
+    height:90vh;
+    background:url("background.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    padding:80px 20px;
 }
 
-.hero h1{
-    font-size:40px;
-    color:#0d6efd;
+.hero-box{
+    background:rgba(0,0,0,.6);
+    color:white;
+    padding:40px;
+    border-radius:10px;
 }
 
-.hero p{
+.hero-box h1{
+    font-size:50px;
+}
+
+.hero-box p{
+    margin:20px 0;
     font-size:20px;
 }
 
 .btn{
     display:inline-block;
-    margin-top:20px;
-    background:#0d6efd;
-    color:white;
     padding:12px 25px;
+    background:#ff9800;
+    color:white;
     text-decoration:none;
     border-radius:5px;
+    margin:10px;
 }
 
-section{
-    padding:40px;
+.btn:hover{
+    background:#e68900;
 }
 
 footer{
-    background:#222;
+    background:#0b5ed7;
     color:white;
     text-align:center;
-    padding:15px;
+    padding:20px;
 }
 </style>
 
 </head>
+
 <body>
 
 <header>
-<h1>Online Admission Portal</h1>
-<p>Apply for Admission Easily</p>
-</header>
+
+<div class="logo">
+BNBCE
+</div>
 
 <nav>
 <a href="#">Home</a>
+<a href="#">About</a>
 <a href="#">Admission</a>
+<a href="#">Courses</a>
 <a href="#">Notice</a>
 <a href="#">Result</a>
+<a href="#">Gallery</a>
 <a href="#">Contact</a>
+<a href="#">Student Login</a>
+<a href="#">Admin Login</a>
 </nav>
 
-<div class="hero">
-<h1>Welcome to Admission Portal</h1>
-<p>Online Admission System for Schools, Colleges and Universities</p>
+</header>
+
+<section class="hero">
+
+<div class="hero-box">
+
+<h1>BERABERIA NATIONAL BOARD OF COMPUTER EDUCATION</h1>
+
+<p>Welcome to Our Computer Training Institute</p>
 
 <a href="#" class="btn">Apply Now</a>
+
+<a href="#" class="btn">Learn More</a>
+
 </div>
 
-<section>
-<h2>Latest Notice</h2>
-<ul>
-<li>Admission starts from 1 August 2026</li>
-<li>Last date of application: 30 August 2026</li>
-<li>Admission Test: 10 September 2026</li>
-</ul>
 </section>
 
 <footer>
-© 2026 Admission Portal | All Rights Reserved
+
+© 2026 BNBCE | All Rights Reserved
+
 </footer>
 
-<nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="admission.html">Admission</a>
-    <a href="notice.html">Notice</a>
-    <a href="result.html">Result</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin-login.html" class="admin-btn">Admin Login</a>
-</nav>
+</body>
+</html>
