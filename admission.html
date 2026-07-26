@@ -1,1 +1,89 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admission Form</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f2f2f2;
+}
+
+.container{
+    width:400px;
+    margin:40px auto;
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+h2{
+    text-align:center;
+    color:#0056d6;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#0056d6;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#003fa3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>NBCE Admission Form</h2>
+
+<form>
+
+<input type="text" placeholder="Student Name" required>
+
+<input type="text" placeholder="Father Name" required>
+
+<input type="text" placeholder="Mother Name" required>
+
+<input type="date" required>
+
+<select required>
+<option>Select Course</option>
+<option>DCA</option>
+<option>ADCA</option>
+<option>PGDCA</option>
+<option>Tally Prime</option>
+<option>Basic Computer</option>
+</select>
+
+<input type="tel" placeholder="Mobile Number" required>
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Address"></textarea>
+
+<button type="submit">Submit Application</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
